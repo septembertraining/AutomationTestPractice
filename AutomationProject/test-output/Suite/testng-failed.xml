@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.automationproject.testngsessions.OrangeHrmTest">
+        <methods>
+          <include name="addEmployee"/>
+          <include name="tearDown"/>
+          <include name="logOff"/>
+          <include name="launchUrl"/>
+          <include name="deleteEmployee"/>
+          <include name="orangeHRMLogin"/>
+          <include name="reportSearch"/>
+          <include name="lauchBrowser"/>
+        </methods>
+      </class> <!-- com.automationproject.testngsessions.OrangeHrmTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
