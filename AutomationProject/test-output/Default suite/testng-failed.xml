@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationproject.testngsessions.OrangeHrmTest2">
+      <class name="com.automationproject.testngsessions.OrangeHrmTest3">
         <methods>
-          <include name="captureScreenshot"/>
           <include name="lauchBrowser"/>
-          <include name="tearDown"/>
-          <include name="launchUrl"/>
+          <include name="captureScreenshot"/>
           <include name="orangeHRMLogin"/>
-          <include name="logOff"/>
           <include name="addEmployee"/>
+          <include name="tearDown"/>
+          <include name="logOff"/>
+          <include name="launchUrl"/>
         </methods>
-      </class> <!-- com.automationproject.testngsessions.OrangeHrmTest2 -->
+      </class> <!-- com.automationproject.testngsessions.OrangeHrmTest3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
